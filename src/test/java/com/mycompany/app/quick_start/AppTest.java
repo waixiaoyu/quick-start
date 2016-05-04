@@ -1,5 +1,7 @@
 package com.mycompany.app.quick_start;
 
+import java.net.StandardSocketOptions;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -26,6 +28,7 @@ public class AppTest
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
+        
     }
 
     /**
@@ -33,6 +36,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+    	System.out.println("hello testApp");
     }
 }
